@@ -35,23 +35,33 @@
         <script src="https://kit.fontawesome.com/31a75eb6c3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav class="flex justify-between">
+    <header class="max-w-[83.5%] mx-auto">
+        <nav class="flex justify-between items-center mt-6">
             <div>
                 <img src="./images/logo-header.png" alt="This is header logo image">
             </div>
-            <div>
-                <ul>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact Us</a></li>
-                </ul>
+            <div class="flex gap-8 text-xl ">
+                <div>
+                    <ul>
+                        <li><a href="">Product</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="">Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
             <div>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <button>Login</button>
-                <button>Register</button>
+                <i class="fa-solid fa-magnifying-glass text-[1.5rem] mr-6"></i>
+                <i class="fa-solid fa-cart-shopping text-[1.5rem] mr-6"></i>
+                <button class="text-xl py-3 px-8 border rounded-lg border-[#179800] mr-3">Login</button>
+                <button class="text-xl py-3 px-8 rounded-lg text-white bg-[#179800]">Register</button>
             </div>
         </nav>
     </header>
