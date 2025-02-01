@@ -36,9 +36,12 @@
 </head>
 <body>
     <!-- Header start -->
-    <header class="max-w-[83.5%] mx-auto bg-gradient-to-b from-white to-[#EFEBE3]">
+    <header class="bg-gradient-to-b from-white to-[#EFEBE3]">
         <!-- Navbar Start -->
-        <nav class="max-w-[85%] mx-auto flex justify-between items-center mt-6">
+        <nav class="max-w-[85%] mx-auto flex justify-between items-center mt-3 lg:mt-6">
+            <div class="lg:hidden">
+                <img src="./images/mobile_logo.png" alt="">
+            </div>
             <div>
                 <img src="./images/logo-header.png" alt="This is header logo image">
             </div>
@@ -65,6 +68,9 @@
                 <button class="text-xl py-3 px-8 border rounded-lg border-[#179800] mr-3">Login</button>
                 <button class="text-xl py-3 px-8 rounded-lg text-white bg-[#179800]">Register</button>
             </div>
+            <div class="lg:hidden">
+                <img src="./images/bars-3.png" alt="">
+            </div>
         </nav>
         <!-- Navbar end -->
         <!-- Banner Start -->
@@ -82,7 +88,7 @@
     <!-- Main Start -->
     <main>
         <!-- Services Section Start -->
-        <section class="max-w-[83.5%] mx-auto">
+        <section>
             <div class="max-w-[85%] mx-auto">
                 <h1 class="text-4xl text-[#179800] font-bold mt-[8.75rem] mb-12">Services</h1>
                 <div class="grid grid-cols-3 gap-6">
@@ -118,7 +124,7 @@
         </section>
         <!-- Services Section end -->
         <!-- Popular Products Section Start -->
-        <section class="max-w-[83.5%] mx-auto bg-[#EFEBE3] mt-[8.75rem]">
+        <section class="bg-[#EFEBE3] mt-[8.75rem]">
             <div class="max-w-[85%] mx-auto">
                 <h1 class="text-4xl text-[#179800] font-bold">Popular Products</h1>
             </div>
@@ -241,7 +247,7 @@
         <!-- Popular Products Section end -->
 
         <!-- Arrival & Offers Section start -->
-        <section class="max-w-[83.5%] mx-auto mt-[9.1rem]">
+        <section class="mt-[9.1rem]">
            <div class="max-w-[85%] mx-auto">
             <h1 class="text-4xl text-[#179800] font-bold mb-12">Arrival & Offers</h1>
            </div>
@@ -272,20 +278,44 @@
     </main>
     <!-- Main end -->
     <!-- Footer Start -->
-    <footer class="max-w-[83.5%] mx-auto">
-        <div class="flex justify-between max-w-[85%] mx-auto bg-[#EFEBE3] rounded-3xl py-[3.5rem] px-[6.75rem]">
-            <div>
-                <img src="./images/vegetable-busket.png" alt="">
-            </div>
-            <div class="mt-10">
-                <h1 class="text-4xl font-bold">Get Grocery News!</h1>
-                <p class="text-xl mt-[1.3rem]">Exclusive training tips, ticks, product deals and more.</p>
-                <input class="py-5 pl-[1.1rem] pr-[13rem] rounded-lg mt-10" type="email" name="email" id="email" placeholder="Enter email....">
+    <footer class="bg-[#179800] mt-[24.31rem]">
+        <section class=" max-w-[85%] mx-auto">
+            <div class="flex justify-between bg-[#EFEBE3] rounded-3xl py-[3.5rem] px-[6.75rem]">
+                <div>
+                    <img src="./images/vegetable-busket.png" alt="">
+                </div>
                 <div class="mt-10">
-                    <button class="text-xl text-white rounded-lg py-[0.5rem] px-[1.8rem] bg-[#179800]">Subscribe</button>
+                    <h1 class="text-4xl font-bold">Get Grocery News!</h1>
+                    <p class="text-xl mt-[1.3rem]">Exclusive training tips, ticks, product deals and more.</p>
+                    <input class="py-5 pl-[1.1rem] pr-[13rem] rounded-lg mt-10" type="email" name="email" id="email" placeholder="Enter email....">
+                    <div class="mt-10">
+                        <button class="text-xl text-white rounded-lg py-[0.5rem] px-[1.8rem] bg-[#179800]">Subscribe</button>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="flex justify-between">
+                <div>
+                    <img src="./images/logo-footer.png" alt="">
+                    <p class="text-xl text-white mt-3">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+                </div>
+                <div>
+                    <ul class="text-white text-xl space-y-8">
+                        <li><a href=""></a>Product</li>
+                        <li><a href=""></a>Services</li>
+                        <li><a href=""></a>Contact us</li>
+                    </ul>
+                </div>
+                <div class="mt-[5rem]">
+                    <p class="text-white">Follow Us</p>
+                    <div class="flex gap-[1.8rem] mt-4">
+                        <div><img src="./images/facebook.png" alt=""></div>
+                        <div><img src="./images/instagram.png" alt=""></div>
+                        <div><img src="./images/linkdin.png" alt=""></div>
+                        <div><img src="./images/youtube.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
     <!-- Footer end -->
 </body>
